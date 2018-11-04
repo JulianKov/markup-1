@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header class="header__page-header">
+    <div class="header__wrapper">
+      <nav class="header__navigation">
+        <a href="" class="header__logo"><img src="./images/main-logo.svg" alt="Logo" height="29px" width="133px"></a>
+        <ul class="header__menu">
+          <li class="header__item"><a class="header__link header__link--active" href="#">Home</a></li>
+          <li class="header__item"><a class="header__link" href="#">Domain</a></li>
+          <li class="header__item"><a class="header__link" href="#">Hosting</a></li>
+          <li class="header__item"><a class="header__link" href="#">Clients</a></li>
+          <li class="header__item"><a class="header__link" href="#">Blog</a></li>
+          <li class="header__item"><a class="header__link" href="#">Support</a></li>
+        </ul>
+      </nav>
+      <div class="header-line"></div>
+      <div class="header__greeting">
+        <h2 class="header__headline">HELLO!</h2>
+        <p class="header__slogan">We love our work...<br>And We're taking it seriously...</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="manage__line">
+    <button class="manage__button manage__button--left">LOGIN</button>
+    <div class="manage__separator"></div>
+    <button class="manage__button manage__button--right">REGISTER</button>
+    <div class="manage__separator manage__separator--right"></div>
+  </div>
+
+  <section class="offer">
+    <div class="offer__wrapper">
+      <h1 class="offer__title">Would you like to buy a new domain ?</h1>
+      <p class="offer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
+      <div class="offer__block">
+        <div class="offer__prefix">
+          <span cla>www.</span>
+        </div>
+        <div class="offer__name">
+          <input type="text" name="" class="offer__input" value="What do you want?" onfocus="if (this.value == 'What do you want?') {this.value = '';}" onblur="if (this.value == '') {this.value = 'What do you want?';}">
+        </div>
+        <div class="offer__domain">
+          <select class="offer__select" name="domain" id="">
+            <option value="com">.com</option>
+            <option value="net">.net</option>
+            <option value="net">.org</option>
+          </select>
+        </div> 
+      </div>
+        <table class="offer__table">
+          <tr>
+            <td class="offer__row offer__row--top"><p class="offer__price">.COM</p></td>
+            <td class="offer__row offer__row--top"><p class="offer__price">1 Year</p></td>
+            <td class="offer__row offer__row--top"><p class="offer__price">$9.00 USD</p></td>
+            <td class="offer__row offer__row--top"><p class="offer__price">Transfer Price No</p></td>
+          </tr>
+          <tr>
+            <td class="offer__row"><p class="offer__price">.NET</p></td>
+            <td class="offer__row"><p class="offer__price">1 Year</p></td>
+            <td class="offer__row"><p class="offer__price">$9.00 USD</p></td>
+            <td class="offer__row"><p class="offer__price">Transfer Price No</p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="packages">
+    <div class="packages__background"></div>
+    <div class="packages__wrapper">
+      <div class="packages__content">
+        <div class="packages__pack packages__pack--basic">
+          <div class="package__wrapper">
+            <div class="packages__basic-icon packages__basic-icon--yellow">
+              <i class="fa fa-anchor" aria-hidden="false"></i>
+            </div>
+            <h2 class="package__title">BASIC PACKAGE</h2>
+            <hr class="package__upline">
+            <div class="package__row">
+              <p class="package__descr">Disc Space (GB)</p><p class="package__descr package__descr--yellow">50</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Subdomains</p><p class="package__descr package__descr--yellow">50</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Transfer (GB)</p><p class="package__descr package__descr--yellow">50</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Data bases</p><p class="package__descr package__descr--yellow">1</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Dashboards</p><p class="package__descr package__descr--yellow">1</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Control Panel & FTP</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Free Support</p>
+            </div>
+            <hr class="package__bottline">
+            <div class="package__price">
+              <div class="package__row package__row--short package__row--yellow">
+                <span>$</span><h2 class="package__number">15</h2><p>/Mo</p>
+              </div>
+              <h3 class="package__title">SELECT PLAN</h3>
+            </div>
+          </div>
+        </div>
+        <div class="packages__pack packages__pack--normal">
+          <div class="package__wrapper">
+            <div class="packages__basic-icon packages__basic-icon----gray">
+              <i class="fa fa-star-half-o" aria-hidden="false"></i>
+            </div>
+            <h2 class="package__title">NORMAL PACKAGE</h2>
+            <hr class="package__upline">
+            <div class="package__row">
+              <p class="package__descr">Disc Space (GB)</p><p class="package__descr package__descr--gray">100</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Subdomains</p><p class="package__descr package__descr--gray">100</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Transfer (GB)</p><p class="package__descr package__descr--gray">100</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Data bases</p><p class="package__descr package__descr--gray">2</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Dashboards</p><p class="package__descr package__descr--gray">2</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Control Panel & FTP</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Free Support</p>
+            </div>
+            <hr class="package__bottline">
+            <div class="package__price">
+              <div class="package__row package__row--short package__row--gray">
+                <span>$</span><h2 class="package__number">30</h2><p>/Mo</p>
+              </div>
+              <h3 class="package__title">SELECT PLAN</h3>
+            </div>
+          </div>
+        </div>
+        <div class="packages__pack packages__pack--big">
+          <div class="package__wrapper">
+            <div class="packages__basic-icon packages__basic-icon----red">
+              <i class="fa fa-star" aria-hidden="false"></i>
+            </div>
+            <h2 class="package__title">BIG PACKAGE</h2>
+            <hr class="package__upline">
+            <div class="package__row">
+              <p class="package__descr">Disc Space (GB)</p><p class="package__descr package__descr--red">150</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Subdomains</p><p class="package__descr package__descr--red">150</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Transfer (GB)</p><p class="package__descr package__descr--red">150</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Data bases</p><p class="package__descr package__descr--red">4</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Dashboards</p><p class="package__descr package__descr--red">4</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Control Panel & FTP</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Free Support</p>
+            </div>
+            <hr class="package__bottline">
+            <div class="package__price">
+              <div class="package__row package__row--short package__row--red">
+                <span>$</span><h2 class="package__number">40</h2><p>/Mo</p>
+              </div>
+              <h3 class="package__title">SELECT PLAN</h3>
+            </div>
+          </div>
+        </div>
+        <div class="packages__pack packages__pack--biggest">
+          <div class="package__wrapper">
+            <div class="packages__basic-icon  packages__basic-icon----green">
+              <i class="fa fa-diamond" aria-hidden="false"></i>
+            </div>
+            <h2 class="package__title">BIGGEST PACKAGE</h2>
+            <hr class="package__upline">
+            <div class="package__row">
+              <p class="package__descr">Disc Space (GB)</p><p class="package__descr package__descr--green">250</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Subdomains</p><p class="package__descr package__descr--green">250</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Transfer (GB)</p><p class="package__descr package__descr--green">250</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Data bases</p><p class="package__descr package__descr--green">6</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Dashboards</p><p class="package__descr package__descr--green">6</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Control Panel & FTP</p>
+            </div>
+            <div class="package__row">
+              <p class="package__descr">Free Support</p>
+            </div>
+            <hr class="package__bottline">
+            <div class="package__price">
+              <div class="package__row package__row--short package__row--green">
+                <span>$</span><h2 class="package__number">70</h2><p>/Mo</p>
+              </div>
+              <h3 class="package__title">SELECT PLAN</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="aboutUs">
+    <div class="aboutUs__wrapper">
+      <div class="aboutUs__info">
+        <h2 class="aboutUs__title">About Us</h2>
+        <p class="aboutUs__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Praesent feugiat eget diam sit amet molestie.Curabitur. 
+          ut ipsum bibendum tortor lacinia fermentum nec joeıa.
+          Mauris at augue libero. Fusce posuere, sapien nec poır.
+          Uaee augsuada sed mauris in tincidunt...</p>
+      </div>
+      <div class="aboutUs__specialists">
+        <div class="aboutUs__card">
+          <img class="aboutUs__ava" src="./images/jonny.jpg" alt="Jonny" width="90px" height="90px">
+          <h3 class="aboutUs__username">Jonny Doe</h3>
+          <p class="aboutUs__prof">Designer</p>
+          <div class="abutUs__socials">
+              <a href="#"><i class="fa fa-facebook-f"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+        <div class="aboutUs__card">
+          <img class="aboutUs__ava" src="./images/john.jpg" alt="John" width="90px" height="90px">
+          <h3 class="aboutUs__username">John Doe</h3>
+          <p class="aboutUs__prof">Designer</p>
+          <div class="abutUs__socials">
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+        <div class="aboutUs__card">
+          <img class="aboutUs__ava" src="./images/johnathan.jpg" alt="Johnathan" width="90px" height="90px">
+          <h3 class="aboutUs__username">Johnathan Doe</h3>
+          <p class="aboutUs__prof">Designer</p>
+          <div class="abutUs__socials">
+            <a href="#"><i class="fa fa-facebook-f"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="quotes">
+    <div class="quotes__wrapper">
+      <p class="quotes__messge">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”</p>
+      <div class="quotes__control">
+        <h2 class="quotes__author">John Doe</h2>
+        <button class="quotes__btn quotes__btn--active"></button>
+        <button class="quotes__btn"></button>
+        <button class="quotes__btn"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="features__wrapper">
+      <div class="features__block">
+        <i class="fa fa-bolt"></i>
+        <h3 class="features__name">Fast Servers</h3>
+        <p class="features__description">Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.</p>
+      </div>
+      <div class="features__block">
+        <i class="fa fa-cloud"></i>
+        <h3 class="features__name">Cloud Servers</h3>
+        <p class="features__description">Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.</p>
+      </div>
+      <div class="features__block">
+        <i class="fa fa-arrows-alt"></i>
+        <h3 class="features__name">Domain Transfer</h3>
+        <p class="features__description">Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.</p>
+      </div>
+      <div class="features__block">
+        <i class="fa fa-comments"></i>
+        <h3 class="features__name">Live Support</h3>
+        <p class="features__description">Nulla dapibus neque augue, quis 
+            tincidunt tortor aliquam vitae.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer__wrapper">
+      <div class="footer__navigation">
+        <img class="footer__logo" src="./images/logo.svg" alt="Company Logo" height="29px" width="133px">
+        <ul class="footer__menu">
+          <li class="footer__link footer__link--active"><a href="#">Home</a></li>
+          <li class="footer__link"><a href="#">About us</a></li>
+          <li class="footer__link"><a href="#">Blog</a></li>
+          <li class="footer__link"><a href="#">Policy</a></li>
+          <li class="footer__link"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__bootom">
+        <div class="footer__author">
+          <p class="footer__description">Lorem ipsum dolor sit amet, consecteteeseurı
+            adipiscing elit. Donec mollis commodoeesene
+            que, non commodo risus volutpat vel.</p>
+          <p class="footer__description">Design by <span class="footer__description--bold">Mert Can Eyriyer.</span></p>
+        </div>
+        <div class="footer__control">
+          <div class="footer__col">
+            <a class="footer__elem footer__elem--active" href="#"><i class="fa fa-angle-right"></i>Support</a>
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Account</a>
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Product Catalog</a>
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Shortcodes</a>
+          </div>
+          <div class="footer__col">
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Site Map</a>
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Whois Search</a>
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Web Mail</a>
+            <a class="footer__elem" href="#"><i class="fa fa-angle-right"></i>Find Domain</a>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__row">
+            <a class="footer__lnk" href="tel:+0000-0000-0000-000"><i class="fa fa-phone"></i>0000-0000-0000</a>
+          </div>
+          <div class="footer__row">
+            <a class="footer__lnk" href="mailto:informationteam@ghosthost.com"><i class="fa fa-envelope"></i>informationteam@ghosthost.com</a>
+          </div>
+          <div class="footer__row">
+            <p class="footer__text">Lorem Ipsum Street, Lorem Avenue, Lorem Ipsum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
